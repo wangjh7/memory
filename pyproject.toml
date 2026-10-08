@@ -1,0 +1,21 @@
+[project]
+name = "memory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.4.3",
+    "langchain-classic>=1.0.8",
+    "langchain-openai>=1.6.7",
+    "numpy>=2.5.3",
+    "openai>=3.26.0",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.1.0",
+    "tiktoken>=0.14.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
